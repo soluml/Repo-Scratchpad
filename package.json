@@ -13,6 +13,7 @@
   "version": "0.1.0",
   "publisher": "soluml",
   "license": "MIT",
+  "icon": "images/icon.png",
   "homepage": "https://github.com/soluml/scratchpad",
   "repository": {
     "type": "git",
