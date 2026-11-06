@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Repo Scratchpad logo: a smiling Git logo waving from a sticky note" width="180">
+  <img src="images/logo.png" alt="Repo Scratchpad logo: a smiling Git logo waving from a sticky note" width="180">
 </p>
 
 <h1 align="center">Repo Scratchpad</h1>

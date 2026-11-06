@@ -11,4 +11,5 @@ tsconfig.json
 *.config.cjs
 *.config.mjs
 test/**
-logo.png
+images/logo-src.png
+images/logo.png
