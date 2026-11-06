@@ -1,0 +1,78 @@
+{
+  "name": "scratchpad",
+  "displayName": "Scratchpad",
+  "description": "Take quick per-repository notes in the panel",
+  "keywords": [
+    "notes",
+    "notepad",
+    "scratchpad",
+    "panel",
+    "git",
+    "repository"
+  ],
+  "version": "0.1.0",
+  "publisher": "bsolum",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "out/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": "limited",
+      "description": "In untrusted workspaces Git is not queried, so notes are stored per directory instead of per repository."
+    }
+  },
+  "contributes": {
+    "viewsContainers": {
+      "panel": [
+        {
+          "id": "scratchpad",
+          "title": "Scratchpad",
+          "icon": "$(note)"
+        }
+      ]
+    },
+    "views": {
+      "scratchpad": [
+        {
+          "type": "webview",
+          "id": "scratchpad.scratchpadView",
+          "name": "Scratchpad",
+          "icon": "$(note)"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Scratchpad",
+      "properties": {
+        "scratchpad.syncRepositoryNotes": {
+          "type": "boolean",
+          "default": true,
+          "description": "Sync notes for Git repositories with a remote across machines via VS Code Settings Sync."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "rm -rf out && npm run esbuild-base -- --minify",
+    "esbuild-base": "esbuild ./src/extension.ts --bundle --outfile=out/extension.js --external:vscode --format=cjs --platform=node",
+    "esbuild": "npm run esbuild-base -- --sourcemap",
+    "watch": "npm run esbuild-base -- --sourcemap --watch",
+    "test": "npm run esbuild-base && tsc --noEmit && node --test 'test/**/*.test.ts'",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.3",
+    "@types/vscode": "^1.75.0",
+    "@vscode/vsce": "^3.7.1",
+    "esbuild": "^0.27.2",
+    "typescript": "^5.9.3"
+  }
+}
