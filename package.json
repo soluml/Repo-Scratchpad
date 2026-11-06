@@ -11,8 +11,16 @@
     "repository"
   ],
   "version": "0.1.0",
-  "publisher": "bsolum",
+  "publisher": "soluml",
   "license": "MIT",
+  "homepage": "https://github.com/soluml/scratchpad",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soluml/scratchpad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soluml/scratchpad/issues"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },

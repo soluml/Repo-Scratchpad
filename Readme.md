@@ -37,4 +37,4 @@ Press F5 in VS Code to launch an Extension Development Host.
 
 ## License
 
-MIT, see License.md.
+MIT, see [License.md](License.md).
