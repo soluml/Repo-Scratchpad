@@ -1,6 +1,12 @@
-# Repo Scratchpad 📝
+<p align="center">
+  <img src="logo.png" alt="Repo Scratchpad logo: a smiling Git logo waving from a sticky note" width="180">
+</p>
 
-Take quick notes in VS Code's bottom panel, scoped to the project you're working on.
+<h1 align="center">Repo Scratchpad</h1>
+
+<p align="center">
+  Take quick notes in VS Code’s bottom panel, scoped to the project you’re working on.
+</p>
 
 A fork of [Notebox](https://github.com/sapegin/vscode-notebox) by Artem Sapegin, with the same look, but notes are stored per repository instead of globally.
 
