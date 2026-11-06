@@ -8,7 +8,17 @@
   Take quick notes in VS Code’s bottom panel, scoped to the project you’re working on.
 </p>
 
+<p align="center">
+  <strong><a href="https://marketplace.visualstudio.com/items?itemName=soluml.repo-scratchpad">Install from the Visual Studio Marketplace</a></strong>
+</p>
+
 A fork of [Notebox](https://github.com/sapegin/vscode-notebox) by Artem Sapegin, with the same look, but notes are stored per repository instead of globally.
+
+## Install
+
+- From the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=soluml.repo-scratchpad)
+- In VS Code, open the Extensions view, search for **Repo Scratchpad** and select **Install**
+- From a terminal: `code --install-extension soluml.repo-scratchpad`
 
 ## How it works
 
