@@ -1,4 +1,4 @@
-# Scratchpad 📝
+# Repo Scratchpad 📝
 
 Take quick notes in VS Code's bottom panel, scoped to the project you're working on.
 
