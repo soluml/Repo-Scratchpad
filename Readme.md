@@ -38,3 +38,5 @@ Press F5 in VS Code to launch an Extension Development Host.
 ## License
 
 MIT, see [License.md](License.md).
+
+Icon based on the [Git logo](https://git-scm.com/downloads/logos) by [Jason Long](https://twitter.com/jasonlong), licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). Not affiliated with or endorsed by the Git project.
